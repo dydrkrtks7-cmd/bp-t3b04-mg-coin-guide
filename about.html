@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>홍대 노래방 가격 정보 — 내 기준에 맞는 조건 찾기</title>
+    <meta name="description" content="홍대에 처음 방문하는 분들을 위해 노래방 이용 전 알아두면 좋은 사항과 가격 확인 방법을 정리했습니다. 위치·시간·인원별 조건을 한눈에 파악하세요.">
+    <meta name="keywords" content="홍대 노래방, 가격, 이용 방법, 초보 가이드, 노래방 조건">
+    <link rel="canonical" href="https://hongdae-karaoke-note.mapo-shirts-connect.xyz/about.html">
+    <meta property="og:title" content="홍대 노래방 가격 정보 — 처음 방문자를 위한 조건별 선택 안내">
+    <meta property="og:description" content="홍대 노래방 이용 전 꼭 확인해야 할 가격 구조와 이용 조건을 정리했습니다.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hongdae-karaoke-note.mapo-shirts-connect.xyz/about.html">
+    <meta property="og:image" content="https://hongdae-karaoke-note.mapo-shirts-connect.xyz/og-image.jpg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* 기본 색상 및 타이포그래피 */
+        :root {
+            --primary: #2d3436;
+            --accent: #e17055;
+            --accent2: #fd79a8;
+            --bg: #f8f9fa;
+            --bg-alt: #fff4f0;
+            --card: #ffffff;
+            --card-alt: #fef9f7;
+            --text: #2d3436;
+            --text-light: #636e72;
+            --border: #e0d5d1;
+            --font-base: 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif;
+            --shadow: 0 4px 20px rgba(225, 112, 85, 0.08);
+            --radius: 20px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--font-base);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.75;
+            font-size: 1.0625rem;
+            -webkit-font-smoothing: antialiased;
+        }
+        a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+        a:hover { color: #c0392b; text-decoration: underline; }
+        header {
+            background: linear-gradient(135deg, #2d3436 0%, #e17055 100%);
+            color: #fff;
+            padding: 3.5rem 1.5rem 2.8rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: -2rem;
+            left: -2rem;
+            width: 12rem;
+            height: 12rem;
+            background: rgba(253, 121, 168, 0.15);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        header::before {
+            content: '';
+            position: absolute;
+            top: -3rem;
+            right: -3rem;
+            width: 16rem;
+            height: 16rem;
+            background: rgba(255, 255, 255, 0.04);
+            border-radius: 50%;
+            pointer-events: none;
+        }
+        header span {
+            display: inline-block;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(4px);
+            padding: 0.4rem 1.6rem;
+            border-radius: 40px;
+            font-size: 0.9rem;
+            letter-spacing: 0.3px;
+            margin-bottom: 1.2rem;
+            border: 1px solid rgba(255,255,255,0.2);
+            position: relative;
+            z-index: 1;
+        }
+        h1 {
+            font-size: 2.3rem;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            line-height: 1.3;
+            position: relative;
+            z-index: 1;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 600;
+            margin-bottom: 1.2rem;
+            color: var(--primary);
+            letter-spacing: -0.3px;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--accent2);
+            display: inline-block;
+        }
+        section {
+            background: var(--card);
+            padding: 2.5rem 2rem;
+            margin: 2rem auto;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow);
+            max-width: 840px;
+            transition: transform 0.2s;
+        }
+        section:nth-of-type(even) {
+            background: var(--card-alt);
+        }
+        section:hover {
+            transform: translateY(-2px);
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1.2rem 4rem;
+        }
+        nav {
+            background: #fff;
+            border-bottom: 1px solid var(--border);
+            padding: 0.8rem 1.5rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        nav li { margin: 0; }
+        nav a {
+            display: inline-block;
+            padding: 0.5rem 1.2rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            color: var(--text-light);
+            border-radius: 40px;
+            transition: all 0.2s;
+            white-space: nowrap;
+        }
+        nav a:hover {
+            background: var(--bg-alt);
+            color: var(--accent);
+            text-decoration: none;
+        }
+        main {
+            min-height: 60vh;
+        }
+        .t-btn-akb4 {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--accent), var(--accent2));
+            color: #fff;
+            padding: 0.8rem 2.2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 14px rgba(225, 112, 85, 0.25);
+        }
+        .t-btn-akb4:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(225, 112, 85, 0.35);
+            text-decoration: none;
+            color: #fff;
+        }
+        .m-body-uuyi {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-light);
+            margin-bottom: 1.2rem;
+        }
+        blockquote {
+            border-left: 5px solid var(--accent2);
+            background: var(--bg-alt);
+            padding: 1.5rem 2rem;
+            margin: 1.8rem 0;
+            border-radius: 0 var(--radius) var(--radius) 0;
+            font-style: italic;
+            color: var(--text-light);
+            position: relative;
+        }
+        blockquote::before {
+            content: '\201C';
+            font-size: 3rem;
+            color: var(--accent2);
+            position: absolute;
+            top: -0.2rem;
+            left: 0.8rem;
+            opacity: 0.3;
+            font-style: normal;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.8rem 0;
+            font-size: 0.98rem;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+        table th {
+            background: var(--primary);
+            color: #fff;
+            padding: 0.9rem 1.2rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        table td {
+            padding: 0.9rem 1.2rem;
+            border-bottom: 1px solid var(--border);
+            background: #fff;
+        }
+        table tr:last-child td { border-bottom: none; }
+        table tr:hover td { background: var(--bg-alt); }
+
+        /* 반응형 */
+        @media (max-width: 768px) {
+            header { padding: 2.5rem 1rem 2rem; }
+            h1 { font-size: 1.7rem; }
+            h2 { font-size: 1.3rem; }
+            section { padding: 1.8rem 1.2rem; margin: 1.2rem 0.6rem; }
+            .container { padding: 1rem 0.6rem 3rem; }
+            nav ul { gap: 0.2rem; }
+            nav a { padding: 0.4rem 0.9rem; font-size: 0.85rem; }
+            table { font-size: 0.85rem; }
+            table th, table td { padding: 0.6rem 0.8rem; }
+            .m-body-uuyi { font-size: 1rem; }
+        }
+        @media (max-width: 480px) {
+            h1 { font-size: 1.4rem; }
+            section { padding: 1.4rem 1rem; }
+            nav a { padding: 0.3rem 0.7rem; font-size: 0.8rem; }
+        }
+        /* 햄버거 메뉴 패턴 (데스크톱에서는 숨김) */
+        .hamburger-menu {
+            display: none;
+        }
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: block;
+                position: absolute;
+                top: 1rem;
+                right: 1.2rem;
+                font-size: 1.6rem;
+                background: none;
+                border: none;
+                color: var(--text-light);
+                cursor: pointer;
+                z-index: 110;
+            }
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.2rem;
+                padding: 0.5rem 0;
+            }
+            nav li { width: 100%; text-align: center; }
+        }
+        /* 작은 장식 */
+        .deco-dot {
+            display: inline-block;
+            width: 6px;
+            height: 6px;
+            background: var(--accent2);
+            border-radius: 50%;
+            margin: 0 0.4rem;
+            opacity: 0.5;
+        }
+        hr {
+            border: none;
+            border-top: 2px dashed var(--border);
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <span>📍 홍대 노래방 정보</span>
+    <h1>홍대 노래방 가격 정보,<br>조건부터 따져보자</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#">🏠 홈</a></li>
+        <li><a href="#">💰 가격 정보</a></li>
+        <li><a href="#">📖 이용 팁</a></li>
+        <li><a href="#">📍 위치 안내</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div class="container">
+
+        <!-- 섹션 1: 개인적인 시작 -->
+        <section>
+            <h2>📌 첫 걸음, 정보부터</h2>
+            <p class="m-body-uuyi">
+                홍대에 놀러 가기로 했을 때 제일 먼저 떠오른 건 '노래방 한 번 갈까?'였어요. 
+            </p>
+            <p>
+                그런데 막상 찾아보니 가격이 천차만별이라서 깜짝 놀랐어요. 
+                같은 홍대라도 골목만 바꿔도 조건이 확 다르더라고요. 
+                시간대는 물론이고 인원 구성, 요일, 심지어 반주 시스템까지 고려할 게 한두 개가 아니었어요. 
+                이 페이지는 그때 제가 정리했던 내용을 바탕으로, 홍대 노래방을 처음 가는 분들께 조금이나마 도움이 되고자 만든 자리예요. 
+                가격 자체보다는 '어떤 조건을 확인해야 하는지'에 초점을 맞췄으니까, 천천히 읽어보시면 분명 도움되는 포인트가 있을 거예요.
+            </p>
+            <p>
+                물론 모든 가게의 가격표를 다 알려드릴 순 없지만, 적어도 '이런 건 미리 체크하자' 하는 기준을 잡아드리는 게 목표예요. 
+                실제로 몇 군데를 돌아보면서 느낀 건, 가격보다 중요한 건 '내 일행과 내가 원하는 분위기'라는 거였어요. 
+                그걸 알려면 기본적인 조건별 차이를 이해하고 있어야 하고요. 
+                자, 그럼 하나씩 살펴볼게요.
+            </p>
+        </section>
+
+        <!-- 섹션 2: 가격 구조 -->
+        <section>
+            <h2>🧾 가격 구조, 이렇게 나뉜다</h2>
+            <p class="m-body-uuyi">
+                홍대 노래방의 가격은 크게 '기본 요금제'와 '시간 연장' 방식으로 나뉘는 편이에요. 
+            </p>
+            <p>
+                기본 요금제는 정해진 시간(보통 1시간 또는 2시간) 동안 이용하는 금액이고, 시간 연장은 10분 또는 30분 단위로 추가되는 구조예요. 
+                그런데 여기에 '반주 시스템 종류', '객실 크기', '피크 타임 여부' 같은 변수가 붙으니까 단순 비교가 쉽지 않더라고요. 
+                예를 들어 같은 2인실이라도 코인 노래방식 기계인지, 고급 반주 시스템인지에 따라 금액대가 달라져요. 
+                아래 표는 제가 현장에서 보고 온 조건들을 항목별로 정리한 거예요. 
+                구체적인 숫자 대신 '어떤 기준으로 나뉘는지'에 집중해 보세요.
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>구분</th>
+                        <th>주요 조건</th>
+                        <th>확인할 포인트</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>시간대</td>
+                        <td>주간 / 야간 / 심야</td>
+                        <td>방문 시간대에 따라 기본 요금이 달라요. 낮 시간이 상대적으로 부담이 적은 편이에요.</td>
+                    </tr>
+                    <tr>
+                        <td>요일</td>
+                        <td>평일 / 주말 / 공휴일</td>
+                        <td>주말 오후~야간 시간대는 기본 요금이 올라가는 경우가 많아요.</td>
+                    </tr>
+                    <tr>
+                        <td>인원</td>
+                        <td>2인 / 4인 / 단체</td>
+                        <td>인원이 많을수록 1인당 부담은 줄어들지만 객실 크기에 따라 추가 요금이 붙을 수 있어요.</td>
+                    </tr>
+                    <tr>
+                        <td>반주 시스템</td>
+                        <td>코인식 / 고급식 / 스마트</td>
+                        <td>시스템 종류에 따라 기본 요금이 다르고, 노래 선택 폭도 차이가 나요.</td>
+                    </tr>
+                    <tr>
+                        <td>위치</td>
+                        <td>중심가 / 골목 / 지하</td>
+                        <td>메인 거리에서 떨어질수록 상대적으로 합리적인 가격대를 만날 확률이 높아요.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                이 표만 봐도 체크할 항목이 꽤 있죠? 처음엔 좀 번거롭게 느껴질 수 있는데, 
+                한 번만 머리에 넣어두면 다음에 방문할 때 훨씬 수월하게 선택할 수 있어요. 
+                특히 시간대와 요일 조건은 미리 확인하면 만족도가 확 올라가는 부분이니까 꼭 기억해 두세요.
+            </p>
+        </section>
+
+        <!-- 섹션 3: 시간대별 선택 -->
+        <section>
+            <h2>⏰ 시간대, 생각보다 크게 작용한다</h2>
+            <p class="m-body-uuyi">
+                시간대에 따라 가격 체계가 달라진다는 건 많은 분들이 아실 거예요. 
+            </p>
+            <p>
+                그런데 의외로 '몇 시부터가 주간이고 야간인지'를 정확히 모르는 경우가 많아요. 
+                제가 몇 군데에서 직접 물어보고 확인한 결과, 오후 6시나 7시를 기준으로 나뉘는 곳이 가장 많았어요. 
+                물론 각 업체마다 기준이 조금씩 다르니까 방문 전에 전화나 SNS로 한 번 확인하는 게 가장 확실해요. 
+                또 심야 시간대(보통 밤 10시나 11시 이후)는 추가 할인이나 특수 요금제가 적용되는 경우도 있으니까, 
+                늦은 시간에 들를 계획이라면 그 부분도 물어보면 좋아요.
+            </p>
+            <p>
+                시간대 선택에서 재미있었던 점은, 같은 가격이라도 분위기가 완전히 달라진다는 거예요. 
+                낮에는 조용하고 여유롭게 즐기기에 좋고, 저녁에는 홍대 특유의 활기찬 에너지를 느낄 수 있어요. 
+                어떤 분위기를 원하느냐에 따라 시간대를 고르는 것도 하나의 팁이에요. 
+                데이트 코스로 가볍게 들를 생각이라면 오후 시간대를, 친구들과 신나게 놀고 싶다면 저녁 시간대를 추천해요.
+            </p>
+        </section>
+
+        <!-- 섹션 4: 인원 조건 -->
+        <section>
+            <h2>👥 인원, 조건을 바꾸는 핵심 변수</h2>
+            <p class="m-body-uuyi">
+                몇 명이서 가느냐에 따라 선택지가 완전히 달라져요.
+            </p>
+            <p>
+                2~3명이 간다면 보통 코너 룸이나 소형실을 이용하게 돼요. 
+                이때는 1인당 부담이 조금 있는 편인데, 대신 분위기가 아늑해서 친한 사람끼리 편하게 즐기기 좋아요. 
+                4~6명 정도면 중형실을 고려하게 되고, 이쯤 되면 1인당 비용이 확실히 낮아져요. 
+                특히 평일 주간에는 중형실 이상에서 인원 수를 채우면 꽤 합리적인 가격대가 나오는 경우가 많아요.
+            </p>
+            <p>
+                단체(7명 이상)로 갈 때는 미리 전화 예약이 거의 필수예요. 
+                대형실 자체가 많지 않은 곳이 많고, 인원이 많으면 준비 시간이나 시스템 세팅이 필요할 수 있어서요. 
+                또 인원이 많을수록 '노래를 얼마나 돌릴지'에 대한 사전 합의가 필요하더라고요. 
+                경험담을 덧붙이자면, 한 번은 아무 생각 없이 8명이서 갔다가 한 곡씩 돌아오는 데만 20분 넘게 걸려서 
+                생각보다 노래를 적게 부른 적이 있어요. 인원이 많다면 시간 연장 옵션까지 미리 생각해 두는 게 좋아요.
+            </p>
+        </section>
+
+        <!-- 섹션 5: 추가 팁 -->
+        <section>
+            <h2>🎤 내 성향에 맞는 선택, 이렇게 하자</h2>
+            <p class="m-body-uuyi">
+                지금까지 시간대와 인원 조건을 살펴봤는데, 여기에 '목적'이라는 요소를 더하면 훨씬 명확해져요.
+            </p>
+            <p>
+                예를 들어 데이트 목적이라면 분위기가 좋고 반주 시스템이 깔끔한 곳을 우선으로 고르는 게 좋아요. 
+                홍대에는 감성적인 인테리어를 갖춘 노래방이 꽤 있더라고요. 
+                반면 친구들과의 큰 모임이라면 가격 부담이 적고 단체로 움직이기 편한 구조인지가 더 중요해요. 
+                또 혼자서 가볍게 연습하러 간다면 코인 노래방이 훨씬 실용적이고 부담도 없어요.
+            </p>
+            <p>
+                목적에 따라 우선순위를 정하고 나면 나머지 조건은 자연스럽게 따라와요. 
+                예를 들어 '데이트 + 저녁 시간대 + 2인'이라면 분위기 좋은 중소형실 위주로 검색하게 되고, 
+                '친구들 모임 + 주말 오후 + 6인'이라면 넓은 공간과 합리적인 시간당 요금을 기준으로 잡게 되죠. 
+                이렇게 기준을 세우고 나면 정보를 찾는 시간도 훨씬 줄어들고, 현장에서 갈등이 생길 일도 줄어들어요. 
+                실제로 저도 이 방법을 쓰면서 홍대 노래방 고르는 시간이 확 줄었어요.
+            </p>
+        </section>
+
+        <!-- 섹션 6: FAQ -->
+        <section>
+            <h2>❓ 자주 묻는 이야기들</h2>
+            <p class="m-body-uuyi">
+                준비하면서 사람들이 가장 많이 물어보는 질문들을 모아 봤어요.
+            </p>
+            <blockquote>
+                "홍대 노래방은 예약이 필수인가요?"
+            </blockquote>
+            <p>
+                꼭 필수는 아니지만, 특히 금요일 저녁이나 주말에는 인기 있는 곳이 금방 차니까 미리 전화나 카카오톡으로 확인하는 게 좋아요. 
+                평일 낮이나 이른 오후에는 예약 없이도 자리가 넉넉한 편이에요. 
+                그래도 저는 개인적으로 방문 30분~1시간 전에 전화 한 통 하는 습관을 들였어요. 
+                도착해서 헤매는 시간을 아낄 수 있으니까요.
+            </p>
+            <blockquote>
+                "음식물 반입이나 주류는 어떻게 되나요?"
+            </blockquote>
+            <p>
+                노래방마다 정책이 달라요. 기본적으로 외부 음식 반입을 금지하는 곳이 많지만, 
+                간단한 간식이나 물은 허용하는 경우도 있어요. 
+                주류는 판매하는 곳이 있고, 아예 금주 구역으로 운영하는 곳도 있으니까 방문 전에 꼭 확인하세요. 
+                특히 생일 파티나 작은 이벤트를 준비 중이라면 음식물 정책을 미리 알아두는 게 중요해요.
+            </p>
+            <blockquote>
+                "처음 가는데 추천할 만한 시간대가 있나요?"
+            </blockquote>
+            <p>
+                첫 방문이라면 평일 오후나 이른 저녁 시간대를 추천해요. 
+                사람이 많지 않아서 시스템을 천천히 익힐 수 있고, 직원분도 더 자세히 설명해 주는 편이에요. 
+                주말 저녁은 홍대 자체가 활기차서 놀기엔 좋지만, 처음에는 다소 바쁘게 느껴질 수 있어요. 
+                몇 번 경험을 쌓고 나면 본인에게 맞는 시간대가 자연스럽게 정해질 거예요.
+            </p>
+        </section>
+
+        <!-- 섹션 7: 마무리 -->
+        <section>
+            <h2>✏️ 작은 기록, 더 나은 선택</h2>
+            <p class="m-body-uuyi">
+                여기까지 읽어주셨다면, 이제 홍대 노래방을 고를 때 어떤 점을 봐야 할지 감이 잡히셨을 거예요.
+            </p>
+            <p>
+                사실 가격 하나만 놓고 보면 단순한 숫자 놀이처럼 느껴질 수도 있어요. 
+                하지만 조건을 이해하고 나면 그 안에 담긴 선택의 폭이 훨씬 넓어진다는 걸 알게 돼요. 
+                시간대, 인원, 목적, 위치, 시스템까지. 이 다섯 가지만 머릿속에 넣어두면 어디를 가도 당황하지 않고 나만의 기준으로 고를 수 있어요.
+            </p>
+            <p>
+                저도 이 기준을 정리한 후로 홍대에서 노래방 갈 일이 있으면 더 자신 있게 결정하게 됐어요. 
+                여러분도 이 정보를 바탕으로 더 즐거운 홍대 나들이를 계획해 보세요. 
+                노래 한 곡의 즐거움이 하루를 얼마나 환하게 바꾸는지, 저는 경험으로 알고 있답니다. 
+                다음에 또 다른 이야기로 찾아올게요. 그때까지 즐거운 노래 생활 하세요!
+            </p>
+            <p style="text-align:right; color:var(--text-light); font-style:italic; margin-top:1.5rem;">
+                — 홍대 노래방을 사랑하는 한 사람의 기록
+            </p>
+        </section>
+
+    </div>
+</main>
+
+</body>
+</html>
